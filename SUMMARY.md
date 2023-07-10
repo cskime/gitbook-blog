@@ -10,6 +10,6 @@
 ## Log
 
 * [iOS](log/ios/README.md)
-  * [일본 오전/오후 표기 문제](log/ios/undefined.md)
+  * [JP Locale에서 Date Format 오류](log/ios/jp-locale-date-format.md)
 
 ## Reference
