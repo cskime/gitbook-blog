@@ -12,6 +12,7 @@
 * [iOS](log/ios/README.md)
   * [일본 지역 설정 시 Date Format 오류](log/ios/date-format.md)
   * [Device를 강제로 회전시키는 방법](log/ios/device.md)
+  * [WKWebView에서 Text 선택 시 Menu 제거](log/ios/wkwebview-text-menu.md)
 
 ## LInks
 
