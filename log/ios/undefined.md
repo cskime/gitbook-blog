@@ -2,7 +2,7 @@
 description: 일본 지역으로 설정했을 때 오전/오후 표기로 인해 date format이 깨지는 문제
 ---
 
-# 일본 오전/오후 표기 문제
+# JP Locale에서 Date Format 오류
 
 ## 문제 상황
 
