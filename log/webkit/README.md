@@ -12,6 +12,6 @@ layout:
     visible: false
 ---
 
-# SwiftUI
+# WebKit
 
-SwiftUI로 개발하면서 경험한 것들을 기록합니다.
+WebKit을 사용하면서 경험한 것들을 기록합니다.
