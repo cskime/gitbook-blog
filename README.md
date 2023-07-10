@@ -38,7 +38,7 @@ description: 날짜와 시간을 다루는 방법
 * 그리니치 천문대를 기준으로 하는 기준 시간, 평균시
 * 협정 세계시의 기준 시간대
 
-#### Etc/GMT
+### Etc/GMT
 
 * POSIX 시스템의 시간대 표기법 중 하나
 * GMT/UTC와 동일한 시간대를 가리키지만, 표기법에 차이가 있다.
@@ -68,19 +68,21 @@ description: 날짜와 시간을 다루는 방법
 * 참고
   * [Time zone map](https://www.timeanddate.com/time/map/)
 
-\<aside> 💡 **GMT + 16은 없는 이유**
-
-* 미국 캘리포니아는 `GMT-8` 시간대에 속하고, summer time을 적용하면 `GMT-7` 시간대에 속한다. 이것은 캘리포니아가 그리니치 천문대를 기준으로 서쪽에 있다고 보기 때문인데, 그리니치 천문대의 동쪽으로 쭉 가다 보면 캘리포나이를 만날 것이므로 `GMT+16`이라고 표기할 수 있는지 궁금하다.
-* 우선, 시간대는 `GMT-11` \~ `GMT+14` 까지밖에 정의되어 있지 않으므로 `GMT+16`이라고 쓸 수는 없다. 그럼 왜 `GMT+14` 까지 밖에 없는가?
-* 180°W, 180°E 에 각각 날짜 변경선을 정해 두었다. 시간대가 변경되는 범위는 이 날짜 변경선 안에서 정해진다. `GMT+16`은 180°E를 넘어야 하므로 존재할 수 없다.
-* `GMT+13`, `GMT+14` 등의 시간대는 180°E 기준을 조금 넘어서 있는데, 날짜 변경선에 걸쳐있는 국가들에서 날짜를 어떻게 사용하는지에 따라 보정되면서 생긴 것이다. 예를 들어, 12월 30일을 없애기로 했다면 그에 맞게 날짜 변경선이 달라질 수 있고, 그 국가를 지나지 않는 선을 만들면서 부분적으로 `GMT+12`를 넘어서는 시간대가 정의될 수 있다. \</aside>
-
 ### DST(Daylight Saving Time)
 
 * [일광 절약 시간제(Daylight Saving Time) 또는 Summer Time](https://ko.wikipedia.org/wiki/%EC%9D%BC%EA%B4%91\_%EC%A0%88%EC%95%BD\_%EC%8B%9C%EA%B0%84%EC%A0%9C)
 * 하절기에 표준시를 원래 시간보다 한 시간 앞당겨서 사용하는 것
   * 2시부터 summer time을 적용하면, 시간을 3시로 조정해야 하는 것
 * 캘리포니아의 경우, `GMT-8` 시간대에 속하지만 summer time을 적용하면 `GMT-7`이 된다.
+
+{% hint style="info" %}
+**GMT + 16은 없는 이유**
+
+* 미국 캘리포니아는 `GMT-8` 시간대에 속하고, summer time을 적용하면 `GMT-7` 시간대에 속한다. 이것은 캘리포니아가 그리니치 천문대를 기준으로 서쪽에 있다고 보기 때문인데, 그리니치 천문대의 동쪽으로 쭉 가다 보면 캘리포나이를 만날 것이므로 `GMT+16`이라고 표기할 수 있는지 궁금하다.
+* 우선, 시간대는 `GMT-11` \~ `GMT+14` 까지밖에 정의되어 있지 않으므로 `GMT+16`이라고 쓸 수는 없다. 그럼 왜 `GMT+14` 까지 밖에 없는가?
+* 180°W, 180°E 에 각각 날짜 변경선을 정해 두었다. 시간대가 변경되는 범위는 이 날짜 변경선 안에서 정해진다. 즉,`GMT+16`은 날짜 변경선 180°E를 넘어야 하므로 존재할 수 없다.
+* `GMT+13`, `GMT+14` 등의 시간대는 180°E 기준을 조금 넘어서 있는데, 날짜 변경선에 걸쳐있는 국가들에서 날짜를 어떻게 사용하는지에 따라 보정되면서 생긴 것이다. 예를 들어, 12월 30일을 없애기로 했다면 그에 맞게 날짜 변경선이 달라질 수 있고, 그 국가를 지나지 않는 선을 만들면서 부분적으로 `GMT+12`를 넘어서는 시간대가 정의될 수 있다.
+{% endhint %}
 
 ## Locale
 
@@ -94,9 +96,12 @@ description: 날짜와 시간을 다루는 방법
 language_[territory].[codeset][@modifier]
 ```
 
-* Language : 언어 (ISO 639-1 표준 형식을 따름)
-* Territory : 국가 또는 지역 (ISO 3166-1 표준 형식을 따름)
-* Codeset : 인코딩 codeset (e.g. UTF-8)
+|  Element  |           Description           |
+| :-------: | :-----------------------------: |
+|  Language |     언어 (ISO 639-1 표준 형식을 따름)    |
+| Territory | 국가 또는 지역 (ISO 3166-1 표준 형식을 따름) |
+|  Codeset  |     인코딩 codeset (e.g. UTF-8)    |
+
 * 한국어로, 한국에서, UTF-8 인코딩을 사용하는 경우
   * `ko_KR.UTF-8`
 * 언어와 국가는 별개로 설정할 수 있다.
@@ -105,15 +110,15 @@ language_[territory].[codeset][@modifier]
 
 ### 종류
 
-* POSIX Locale
-  * [POSIX(Portable Operating System Interface)](https://ko.wikipedia.org/wiki/POSIX)
-    * 이식 가능 운영체제 인터페이스
-    * 서로 다른 UNIX OS의 공통 API를 정리하여 이식성 높은 유닉스 응용 프로그램을 개발하기 위한 목적으로 IEEE가 책정한 애플리케이션 인터페이스 규격
-  * POSIX 시스템의 기본 locale로, 미리 정의된 형식으로 날짜를 출력한다.
-  * `en_US_POSIX` : POSIX 규격에서 정의한 locale 설정을 사용한다.
-* C Locale
-  * C 언어에서 정의하는 locale
-  * POSIX 계열 운영체제에서는 C와 POSIX locale이 혼용됨
+1. POSIX Locale
+   * [POSIX(Portable Operating System Interface)](https://ko.wikipedia.org/wiki/POSIX)
+     * 이식 가능 운영체제 인터페이스
+     * 서로 다른 UNIX OS의 공통 API를 정리하여 이식성 높은 유닉스 응용 프로그램을 개발하기 위한 목적으로 IEEE가 책정한 애플리케이션 인터페이스 규격
+   * POSIX 시스템의 기본 locale로, 미리 정의된 형식으로 날짜를 출력한다.
+   * `en_US_POSIX` : POSIX 규격에서 정의한 locale 설정을 사용한다.
+2. C Locale
+   * C 언어에서 정의하는 locale
+   * POSIX 계열 운영체제에서는 C와 POSIX locale이 혼용됨
 
 ## [ISO8601](https://ko.wikipedia.org/wiki/ISO\_8601)
 
