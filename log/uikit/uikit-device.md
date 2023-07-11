@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Device를 강제로 회전시키는 방법
+# \[UIKit] Device를 강제로 회전시키는 방법
 
 ## UIDeviceOrientation 변경 (Deprecated)
 
@@ -48,7 +48,7 @@ setNeedsUpdateOfSupportedInterfaceOrientations()
 
 1.  코드가 동작하지 않을 때, 프로젝트 설정에서 ‘Requires full screen’에 체크되어 있는지 확인
 
-    <figure><img src="../../.gitbook/assets/Untitled.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Untitled (1).png" alt=""><figcaption></figcaption></figure>
 2.  ‘info.plist’에 ‘UIRequiresFullScreen’ key가 ‘YES’ value로 추가되어 있는지 확인
 
-    <figure><img src="../../.gitbook/assets/Untitled-2.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Untitled-2 (1).png" alt=""><figcaption></figcaption></figure>
