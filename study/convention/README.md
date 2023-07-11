@@ -14,4 +14,3 @@ layout:
 
 # Convention
 
-국제 규약 모음

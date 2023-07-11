@@ -1,16 +1,5 @@
 ---
 description: 날짜와 시간을 다루는 방법
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # All About Date and Time

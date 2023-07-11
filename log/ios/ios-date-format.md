@@ -2,7 +2,7 @@
 description: 일본 지역으로 설정했을 때 오전/오후 표기로 인해 date format이 깨지는 문제
 ---
 
-# JP Locale에서 Date Format 오류
+# \[iOS] 일본 지역 설정 시 Date Format 오류
 
 ## 문제 상황
 
@@ -49,6 +49,6 @@ func dateString(from date: Date) -> String {
 
 ## 참고
 
-* [all-about-date-and-time.md](../../study/dev/all-about-date-and-time.md "mention")
+* [Broken link](broken-reference "mention")
 * [https://developer.apple.com/forums/thread/728922](https://developer.apple.com/forums/thread/728922)
 * [https://developer.apple.com/library/archive/qa/qa1480/\_index.html](https://developer.apple.com/library/archive/qa/qa1480/\_index.html)
