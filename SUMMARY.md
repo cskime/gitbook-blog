@@ -6,6 +6,8 @@
 
 * [dev](study/dev/README.md)
   * [All About Date and Time](study/dev/all-about-date-and-time.md)
+* [Convention](study/convention/README.md)
+  * [ISO3166](study/convention/iso3166.md)
 
 ## Log
 
