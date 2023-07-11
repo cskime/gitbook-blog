@@ -5,7 +5,7 @@ layout:
   description:
     visible: false
   tableOfContents:
-    visible: false
+    visible: true
   outline:
     visible: true
   pagination:
@@ -14,4 +14,4 @@ layout:
 
 # Convention
 
-규약 모음
+국제 규약 모음

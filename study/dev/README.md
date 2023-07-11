@@ -1,2 +1,17 @@
-# dev
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
 
+# Dev
+
+개발 관련
