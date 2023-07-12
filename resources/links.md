@@ -1,9 +1,10 @@
 ---
+description: 계속 보게 되는(또는 앞으로 볼) 블로그 및 문서들, Site 모음
 layout:
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
@@ -12,7 +13,7 @@ layout:
     visible: false
 ---
 
-# REFERENCES
+# Links
 
 ## Develop
 

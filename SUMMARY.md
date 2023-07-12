@@ -23,10 +23,10 @@
 * [WebKit](log/webkit/README.md)
   * [\[WebKit\] WKWebView에서 Text 선택 시 Menu 제거](log/webkit/webkit-wkwebview-text-menu.md)
 
-## LInks
+## Resources
 
-* [REFERENCES](links/references.md)
-* [SwiftUI Sources](links/swiftui-sources/README.md)
+* [Links](resources/links.md)
+* [SwiftUI Sources](resources/swiftui-sources/README.md)
   * [Apple Documentation](https://developer.apple.com/documentation/swiftui)
   * [Stanford CS193P Spring 2021](https://youtube.com/playlist?list=PLpGHT1n4-mAsxuRxVPv7kj4-dQYoC3VVu)
   * [Hacking with Swift](https://www.hackingwithswift.com/articles/196/learn-swiftui-with-free-tutorials)
