@@ -17,6 +17,7 @@
   * [\[iOS\] 일본 지역 설정 시 Date Format 오류](log/ios/ios-date-format.md)
 * [UIKit](log/uikit/README.md)
   * [\[UIKit\] Device를 강제로 회전시키는 방법](log/uikit/uikit-device.md)
+  * [\[UIKit\] 외부 모니터 연결 시 Layout 버그](log/uikit/uikit-layout.md)
 * [SwiftUI](log/swiftui/README.md)
   * [\[SwiftUI\] Line Height 설정하기](log/swiftui/swiftui-line-height.md)
   * [\[SwiftUI\] ScrollView의 Content Alignment 조정하기](log/swiftui/swiftui-scrollview-content-alignment.md)
