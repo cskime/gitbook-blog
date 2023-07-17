@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# ISO3166
+# ISO3166 (Country Code)
 
 ## [ISO3166](https://en.wikipedia.org/wiki/ISO\_3166)
 
@@ -20,7 +20,7 @@ layout:
 * 세 가지 표준으로 구분
   * ISO3166-1 : 국가, 부속 영토 명칭 부호
   * ISO3166-2 : 국가, 부속 영토(provinces or states)의 주요 구성 단위 명칭에 부호 부여
-  * ISO3166-3 : ISO3166-1에서 삭제된 부호를 대체하는 부
+  * ISO3166-3 : ISO3166-1에서 삭제된 부호를 대체하는 부호 추가
 
 ## [ISO3166-1](https://en.wikipedia.org/wiki/ISO\_3166-1)
 
@@ -55,4 +55,4 @@ layout:
        * 'Czechoslovakia'(`CS`)가 'Czechia'(`CZ`)와 'Slovakia'(`SK`)로 분할된 경우 `CSHH`
      * `--HH`가 다른 코드와 중복되는 경우, `HH` 대신 `XX` 사용
        * 'Serbia and Montenegro'(`CS`)가 'Montenegro'(`ME`)와 'Serbia'(`RS`)로 분할
-       * `CSHH`는 다른 코드와 중복되므로 `CSXX`로 사
+       * `CSHH`는 다른 코드와 중복되므로 `CSXX`로 사용
