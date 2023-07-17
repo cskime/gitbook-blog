@@ -34,6 +34,7 @@
 
 ## Casting
 
+*
 *   Type casting operator(`as`, `as?`, `as!`)를 사용해서 specific dynamic type으로 casting 할 수 있다.
 
     ```swift
