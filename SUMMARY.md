@@ -12,6 +12,8 @@
   * [\[Swift\] Existential Type](study/swift/swift-existential-type.md)
 * [Convention](study/convention/README.md)
   * [ISO3166 (Country Code)](study/convention/iso3166-country-code.md)
+* [WWDC](study/wwdc/README.md)
+  * [\[WWDC 2022\] Embrace Swift Generics](study/wwdc/wwdc-2022-embrace-swift-generics.md)
 
 ## Log
 
